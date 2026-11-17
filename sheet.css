@@ -1,0 +1,26 @@
+
+h1 {		
+    color: darkblue;
+}
+
+.paragraph1 {
+    color: green;
+    padding:10px;
+     background-color:yellow;
+    border:solid black;
+}
+
+#paragraph2 {
+    font-weight: bold;
+        padding:10px;
+     background-color:skyblue;
+    border:solid black;
+}
+
+.paragraph3 {
+    font-style: bold;
+        padding:10px;
+     background-color:red;
+    border:solid black;
+}
+

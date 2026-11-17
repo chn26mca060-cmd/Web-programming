@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>STUDENT REGISTRATION FORM</title>
+</head>
+<body>
+    <h1><center>STUDENT REGISTRATION FORM</center></h1>
+    <form>
+        <fieldset>
+            <legend><b>Personal Information</b></legend>
+            <br>
+            Name: <input type="text" name="name"><br><br>
+            Date of Birth: <input type="date" name="dob"><br><br>
+            Gender: 
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female<br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Contact Details</b></legend>
+            <br>
+            Email Address: <input type="email" name="email"><br><br>
+            Contact Details: <input type="tel" name="phone"><br><br>
+            Address:<br>
+            <!-- Fixed text area tag -->
+            <textarea name="address" rows="4" cols="30"></textarea><br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Academic Qualification</b></legend>
+            <br>
+            10th percentage: <input type="text" name="tenth"><br><br>
+            12th percentage: <input type="text" name="twelfth"><br><br>
+            Degree percentage: <input type="text" name="degree"><br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Course Selection</b></legend>
+            <br>
+            Course: 
+            <select name="course">
+                <option value="">Select course</option>
+                <option value="mca">mca</option>
+                <option value="btech">btech</option>
+                <option value="mcom">mcom</option>
+                <option value="msc">msc</option>
+            </select><br><br>
+            Password: <input type="password" name="password"><br><br>
+            Upload Certificate:<br>
+            <input type="file" name="certificate"><br><br>
+            Transfer Certificate Date: <input type="date" name="date"><br><br>
+            
+            <!-- Fixed submission buttons and links -->
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            <br><br>
+            <a href="sign.html">Go to Sign Up Page</a>
+        </fieldset>
+    </form>
+</body>
+</html>
+
